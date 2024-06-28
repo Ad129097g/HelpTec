@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tituloTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tema del curso"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/estadoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado del curso"/>
+
+    <TextView
+        android:id="@+id/profesorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profesor del curso"/>
+
+    <TextView
+        android:id="@+id/departamento_curso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Departamento del curso"/>
+
+    <TextView
+        android:id="@+id/fechaSuscripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de suscripción"/>
+
+    <Button
+        android:id="@+id/deleteCourseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:layout_marginTop="8dp"
+        android:background="@color/c4"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

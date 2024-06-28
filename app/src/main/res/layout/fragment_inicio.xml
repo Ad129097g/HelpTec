@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <!-- Declare your data variables here if needed -->
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Fragmentos.FragmentInicio">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Departamentos"
+                android:padding="20dp"
+                android:textStyle="bold"
+                android:textSize="30sp"/>
+
+            <!-- Imagen 1 -->
+            <ImageView
+                android:id="@+id/imageButton1"
+                android:layout_margin="20dp"
+                android:scaleType="centerCrop"
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:src="@drawable/gestion"
+                android:contentDescription="@string/desc_image1"/>
+
+            <!-- Imagen 2 -->
+            <ImageView
+                android:id="@+id/imageButton2"
+                android:layout_margin="10dp"
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/maviacion"
+                android:contentDescription="@string/desc_image2"/>
+
+            <!-- Imagen 3 -->
+            <ImageView
+                android:id="@+id/imageButton3"
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/electricidad"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/desc_image3"/>
+
+            <!-- Imagen 4 -->
+            <ImageView
+                android:id="@+id/imageButton4"
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mineria_0"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/desc_image4"/>
+
+            <!-- Imagen 5 -->
+            <ImageView
+                android:id="@+id/imageButton5"
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/agricola"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/desc_image4"/>
+
+            <!-- Imagen 6 -->
+            <ImageView
+                android:id="@+id/imageButton6"
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/seguridad"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/desc_image4"/>
+        </LinearLayout>
+    </ScrollView>
+</layout>

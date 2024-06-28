@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="rojo">#DE1D1D</color>
+    <color name="marV">#042F47</color>
+    <color name="fondo">#8046AEDC</color>
+    <color name="primer">#2a044a</color>
+    <color name="segundo">#0b2e59</color>
+    <color name="tercero">#0d6759</color>
+    <color name="cuarto">#7ab317</color>
+    <color name="quinto">#a0c55f</color>
+    <color name="c2">#6E7562</color>
+    <color name="c3">#878f78</color>
+    <color name="c4">#939c85</color>
+    <color name="c5">#a0a891</color>
+    <color name="c1">#BCBDB8</color>
+</resources>

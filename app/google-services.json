@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "84579056142",
+    "project_id": "helptec-df9fc",
+    "storage_bucket": "helptec-df9fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84579056142:android:3ff03027abb8c2ad03da5f",
+        "android_client_info": {
+          "package_name": "com.helptec"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVpuXTzzTOKG8Er6iYfr6ekPRCrsN85AA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
